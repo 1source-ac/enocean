@@ -1713,6 +1713,20 @@
         </data>
       </profile>
     </profiles>
+    <profiles func="0x07" description="Locking Systems Control">
+      <profile type="0x00" description="Mortise lock">
+        <data>
+            <enum description="Bold state key" shortcut="BOLD" offset="0" size="1">
+                <item description="Bold inside lock" value="0" />
+                <item description="Bold in blocking position" value="1" />
+            </enum>
+            <enum description="Catch state key" shortcut="CTCH" offset="1" size="1">
+                <item description="Catch inside lock" value="0" />
+                <item description="Catch in blocking position" value="1" />
+            </enum>
+        </data>
+      </profile>
+    </profiles>
     <profiles func="0x14" description="Multi Function Sensors">
       <profile type="0x41" description="Indoor -Temperature, Humidity XYZ Acceleration, Illumination Sensor">
         <data>
